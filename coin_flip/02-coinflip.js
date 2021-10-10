@@ -19,4 +19,4 @@ var choice = prompt("Please select heads or tails: ");
         else{
             document.write("The flip was tails but you chose heads...you lose!")
         }
-    }
+    };
