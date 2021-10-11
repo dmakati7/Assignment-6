@@ -4,10 +4,10 @@ var i;
 for (i=1; i<=10; i += 1){
     coinFlip = Math.round(Math.random())
     if(coinFlip===0){
-        document.write("Heads" + "<br>");
+        window.console.log("Heads");
     }
     else{
-        document.write("Tails" + "<br>");
+        window.console.log("Tails");
     }
 
 }

@@ -5,11 +5,9 @@ var coinFlip;
     do{
         coinFlip= Math.round(Math.random())
             if(coinFlip===0){
-                document.write("Heads" + "<br>")
+                window.console.log("Heads")
             }
             else{
-                document.write("Tails" + "<br>")
+                window.console.log("Tails")
             }
-    } while(coinFlip===0){
-        
-    };
+    } while(coinFlip !==1);
